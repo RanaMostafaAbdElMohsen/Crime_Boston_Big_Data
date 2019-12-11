@@ -34,10 +34,11 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 - Take output and perform some visualization ( pie-chart, bar chart, etc...)
 - Save these images
 
-#### Running Flink
+#### Running Flink Useful links
 
 - This tutorial is very useful for running flink : `https://ci.apache.org/projects/flink/flink-docs-release-1.9/getting-started/tutorials/local_setup.html`
 - Flink Apache Framework Presentation : `https://docs.google.com/presentation/d/1jLk0ZnmKzDRbkCVgEAwbNSTzcfz1VsIFR9v2RiRljfE/edit?usp=sharing`
+- Flink Big Data Sample Repository ( Word Count ) (Presentation Example ) : `https://drive.google.com/drive/folders/17rqokzzGHfEwadCKq8pewvVUt5SgmgP-?usp=sharing`
         
         
 
