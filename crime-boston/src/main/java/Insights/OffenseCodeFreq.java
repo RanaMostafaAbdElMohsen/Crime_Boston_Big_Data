@@ -18,7 +18,16 @@
 
 package Insights;
 
+import org.apache.flink.api.common.functions.FlatMapFunction;
+import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.operators.DataSource;
+import org.apache.flink.api.java.tuple.Tuple;
+import org.apache.flink.api.java.tuple.Tuple1;
+import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.utils.ParameterTool;
+import org.apache.flink.util.Collector;
 
 /**
  * Skeleton for a Flink Batch Job.
@@ -30,7 +39,7 @@ import org.apache.flink.api.java.ExecutionEnvironment;
  * change the main class in the POM.xml file to this class (simply search for 'mainClass')
  * and run 'mvn clean package' on the command line.
  */
-public class BatchJob {
+public class OffenseCodeFreq {
 
 	public static void main(String[] args) throws Exception {
 		// set up the batch execution environment
@@ -60,7 +69,44 @@ public class BatchJob {
 		 *
 		 */
 
-		// execute program
-		env.execute("Flink Batch Java API Skeleton");
+		DataSource<Tuple1<String>> csvInput = env.readCsvFile("/home/rana/Documents/BigData/Project/Crime_Boston_Big_Data/crime-boston/src/main/java/crimes-in-boston/crime.csv")
+				.includeFields("010000000000000")
+				.types(String.class);
+
+		DataSet<Tuple2<String, Integer>> counts =
+				// split up the lines in pairs (2-tuples) containing: (word,1)
+				csvInput.flatMap(new Tokenizer())
+						// group by the tuple field "0" and sum up tuple field "1"
+						.groupBy(0)
+						.sum(1);
+
+		final ParameterTool params = ParameterTool.fromArgs(args);
+
+		// emit result
+		if (params.has("output")) {
+			counts.writeAsCsv(params.get("output"), "\n", " ");
+			// execute program
+			env.execute("Offense Code Frequency");
+		} else {
+			System.out.println("Printing result to stdout. Use --output to specify output path.");
+			counts.print();
+		}
+
+	}
+
+	public static final class Tokenizer implements FlatMapFunction<Tuple1<String>, Tuple2<String, Integer>> {
+
+		@Override
+		public void flatMap(Tuple1<String> value, Collector<Tuple2<String, Integer>> out) throws Exception {
+
+			String[] tokens = value.toString().toLowerCase().split("\\W+");
+
+			// emit the pairs
+			for (String token : tokens) {
+				if (token.length() > 0) {
+					out.collect(new Tuple2<>(token, 1));
+				}
+			}
+		}
 	}
 }
