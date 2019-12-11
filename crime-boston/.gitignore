@@ -1,5 +1,5 @@
 target
-./idea
+./idea/*
 crime-boston.iml
 crimes-in-boston/
 crimes-in-boston/*
