@@ -60,4 +60,12 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 9- KNN
 
+10- Year that has maximum crime rate
+
+11- Hour that has maximum crime rate
+
+12- Month that has maximum crime rate
+
+13- Day that has maximum crime rate
+
 
