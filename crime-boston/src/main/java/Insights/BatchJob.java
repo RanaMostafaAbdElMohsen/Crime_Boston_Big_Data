@@ -20,6 +20,7 @@ package Insights;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
 
+
 /**
  * Skeleton for a Flink Batch Job.
  *
