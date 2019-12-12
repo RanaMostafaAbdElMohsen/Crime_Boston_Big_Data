@@ -78,8 +78,6 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 2- Hour that has maximum crime rate
 
-3- crime count rate for each offence per day
-
 #### Accomplished Tasks
 
 1- get safe district (District That has minimum Number of crimes)
@@ -105,3 +103,5 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 11- Count crimes per distrcit (Crime rate per district)
 
 12- For each offence code get crime rate
+
+13- Crime count rate for each offence per day
