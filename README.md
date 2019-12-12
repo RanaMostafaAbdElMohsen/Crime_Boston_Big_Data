@@ -74,6 +74,8 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 16- For each year for each month get crime rate
 
+17- For each Month For each offence code get crime rate
+
 #### Accomplished Tasks
 1- get safe district (District That has minimum Number of crimes)
 
