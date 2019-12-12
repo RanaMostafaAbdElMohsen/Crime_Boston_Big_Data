@@ -68,4 +68,29 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 13- Day that has maximum crime rate
 
+14- Remove NULL data, Fill columns that doesn't have value
 
+#### Accomplished Tasks
+1- get safe district (District That has minimum Number of crimes)
+
+2- get count of crime based on street (For eaxh Street get crime rate)
+
+3- group crimes in street by year (group street crimes per year)
+
+4- get count of previous groupping (For each year for each street get crime rate)
+
+5- Crimes count per Year (Crime rate per year)
+
+6- Hourly Crime Rates by Month
+
+7- Crimes count per day (Crime rate per day)
+
+8- Crimes count per hour (Crime rate per hour)
+
+9- Not Safest Street (Street that has maximum number of crimes )
+
+10- offence_code_per_hour_count (For each houe for each offence code get crime rate)
+
+11- Count crimes per distrcit (Crime rate per district)
+
+12- For each offence code get crime rate
