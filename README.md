@@ -45,23 +45,26 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 
 #### Done so far
-1- get safe district
 
-2- get count of crime based on street
+1- get safe district  (District That has minimum Number of crimes)
 
-3- group crimes in street by year 
+2- get count of crime based on street   (For eaxh Street get crime rate)
 
-4- get count of previous groupping
+3- group crimes in street by year  (group street crimes per year)
 
-5- Crimes count per Year
+4- get count of previous groupping  (For each year for each street get crime rate)
+
+5- Crimes count per Year  (Crime rate per year)
 
 6- Hourly Crime Rates by Month
 
-7- Crimes count per day
+7- Crimes count per day  (Crime rate per day)
 
-8- Crimes count per hour
+8- Crimes count per hour  (Crime rate per hour)
 
-9- Not Safest Street
+9- Not Safest Street  (Street that has maximum number of crimes )
 
-10- offence_code_per_hour_count
+10- offence_code_per_hour_count  (For each houe for each offence code get crime rate)
+
+11- Count crimes per distrcit  (Crime rate per district)
 
