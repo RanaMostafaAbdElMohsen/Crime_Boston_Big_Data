@@ -43,41 +43,42 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 - Crime Boston Flink Project : `https://docs.google.com/presentation/d/1x2Vc4fVjgfmzJvPMLSIqHK69mi5mGEqqgDom4Vr5HYU/edit?usp=sharing`
         
 #### Todo Tasks
-1- crime count rate for each offence per day
 
-2- for each day in month get crime rate 
+1- for each day in month get crime rate 
 
-3 - for each hour in year get count of crime rates 
+2 - for each hour in year get count of crime rates 
 
-4- for each district count number of different offence codes 
+3- for each district count number of different offence codes 
 
-5- for each UCR part get count of offence code
+4- for each UCR part get count of offence code
 
-6- for each day for each hour get count of crimes
+5- for each day for each hour get count of crimes
 
-7- Fe 7tt counting values w unique w null l kol column
+6- Fe 7tt counting values w unique w null l kol column
 
-8- for ech day for each hour get count of shooting
+7- for ech day for each hour get count of shooting
 
-9- KNN
+8- KNN
 
-10- Year that has maximum crime rate
+9- Year that has maximum crime rate
 
-12- Month that has maximum crime rate
+10- Month that has maximum crime rate
 
-13- Remove NULL data, Fill columns that doesn't have value
+11- Remove NULL data, Fill columns that doesn't have value
 
-15- For each year for each offence code get crime rate
+12- For each year for each offence code get crime rate
 
-16- For each year for each month get crime rate
+13- For each year for each month get crime rate
 
-17- For each Month For each offence code get crime rate
+14- For each Month For each offence code get crime rate
 
 #### In Progress Tasks
 
 1- Day that has maximum crime rate
 
 2- Hour that has maximum crime rate
+
+3- crime count rate for each offence per day
 
 #### Accomplished Tasks
 
