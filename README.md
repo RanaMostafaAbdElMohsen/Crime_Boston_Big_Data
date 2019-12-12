@@ -70,6 +70,10 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 14- Remove NULL data, Fill columns that doesn't have value
 
+15- For each year for each offence code get crime rate
+
+16- For each year for each month get crime rate
+
 #### Accomplished Tasks
 1- get safe district (District That has minimum Number of crimes)
 
@@ -89,7 +93,7 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 9- Not Safest Street (Street that has maximum number of crimes )
 
-10- offence_code_per_hour_count (For each houe for each offence code get crime rate)
+10- offence_code_per_hour_count (For each hour for each offence code get crime rate)
 
 11- Count crimes per distrcit (Crime rate per district)
 
