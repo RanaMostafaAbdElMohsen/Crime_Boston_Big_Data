@@ -44,4 +44,12 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 
 
-
+#### Done so far
+1- get safe district
+2- get count of crime based on street
+3- group crimes in street by year 
+4- get count of previous groupping
+5- Crimes count per Year
+6- Hourly Crime Rates by Month
+7- Crimes count per day
+8- Crimes count per hour
