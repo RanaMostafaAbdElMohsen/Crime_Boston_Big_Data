@@ -41,7 +41,15 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 - Flink Big Data Sample Repository ( Word Count ) (Presentation Example ) : `https://drive.google.com/drive/folders/17rqokzzGHfEwadCKq8pewvVUt5SgmgP-?usp=sharing`
 - Useful tutorial for apis supported in 1.9 but explained well in flink v1.2 : `https://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/batch/index.html`    
         
-
-
+#### Tasks
+1- crime count rate for each offence per day
+2- for each day in month get crime rate 
+3 - for each hour in year get count of crime rates 
+4- for each district count number of different offence codes 
+5- for each UCR part get count of offence code
+6- for each day for each hour get count of crimes
+7- Fe 7tt counting values w unique w null l kol column
+8- for ech day for each hour get count of shooting
+9- KNN
 
 
