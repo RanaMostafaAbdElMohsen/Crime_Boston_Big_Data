@@ -62,13 +62,9 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 10- Year that has maximum crime rate
 
-11- Hour that has maximum crime rate (omnia)
-
 12- Month that has maximum crime rate
 
-13- Day that has maximum crime rate(omnia)
-
-14- Remove NULL data, Fill columns that doesn't have value
+13- Remove NULL data, Fill columns that doesn't have value
 
 15- For each year for each offence code get crime rate
 
@@ -76,7 +72,14 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 17- For each Month For each offence code get crime rate
 
+#### In Progress Tasks
+
+1- Day that has maximum crime rate
+
+2- Hour that has maximum crime rate
+
 #### Accomplished Tasks
+
 1- get safe district (District That has minimum Number of crimes)
 
 2- get count of crime based on street (For eaxh Street get crime rate)
