@@ -39,8 +39,8 @@ import org.apache.flink.util.Collector;
  */
 public class OffenceCodeFreqPerDistrict {
 
-	static String path="/home/rana/Documents/BigData/Project/Crime_Boston_Big_Data/crime-boston/src/main/java/crimes-in-boston/crime.csv";
-	static String out_path ="/home/rana/Documents/BigData/Project/Crime_Boston_Big_Data/crime-boston/src/main/java/Insights/";
+	static String path="/home/ranamostafamohsen/Crime_Boston_Big_Data/crime-boston/src/main/java/crimes-in-boston/crime.csv";
+	static String out_path ="/home/ranamostafamohsen/Crime_Boston_Big_Data/crime-boston/src/main/java/Insights/";
 
 
 	public static void main(String[] args) throws Exception {
