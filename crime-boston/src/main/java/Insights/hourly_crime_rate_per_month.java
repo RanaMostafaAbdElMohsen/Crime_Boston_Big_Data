@@ -52,7 +52,7 @@ public class hourly_crime_rate_per_month {
                 .types(String.class,String.class);
 
         GroupReduceOperator<Tuple2<String, String>, Tuple3<String, String, Integer>> group_incident_by_year =
-                csvInput.groupBy(1,0)
+                csvInput.groupBy(0,1)
                         .reduceGroup(new offence_code_per_hour_count_());
 
 
@@ -63,7 +63,7 @@ public class hourly_crime_rate_per_month {
 
         final ParameterTool params = ParameterTool.fromArgs(args);
         group_incident_by_year.writeAsCsv(out_path+"Hourly Crime Rates by Month");
-        env.execute("Crimes Files Frequency");
+        env.execute("Crimes  Frequency");
         System.out.println("Printing result to stdout. Use --output to specify output path.");
         group_incident_by_year.print();
 
@@ -81,7 +81,7 @@ public class hourly_crime_rate_per_month {
             // count number of tuples
             for(Tuple2<String, String> m : records) {
                 month = m.f0;
-                hour = m.f0;
+                hour = m.f1;
                 // increase count
                 cnt++;
             }
