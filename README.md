@@ -48,28 +48,25 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 2 - for each hour in year get count of crime rates 
 
-3- for each district count number of different offence codes 
+3- for each UCR part get count of offence code
 
-4- for each UCR part get count of offence code
+4- for each day for each hour get count of crimes
 
-5- for each day for each hour get count of crimes
+5- Fe 7tt counting values w unique w null l kol column
 
-6- Fe 7tt counting values w unique w null l kol column
+6- KNN
 
-7- for ech day for each hour get count of shooting
+7- Remove NULL data, Fill columns that doesn't have value
 
-8- KNN
+8- For each year for each offence code get crime rate
 
-9- Remove NULL data, Fill columns that doesn't have value
+9- For each year for each month get crime rate
 
-10- For each year for each offence code get crime rate
-
-11- For each year for each month get crime rate
-
-12- For each Month For each offence code get crime rate
+10- For each Month For each offence code get crime rate
 
 #### In Progress Tasks
 
+1- for each district count number of different offence codes 
 
 #### Accomplished Tasks
 
