@@ -69,9 +69,7 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 12- For each Month For each offence code get crime rate
 
 #### In Progress Tasks
-1-Month that has maximum crime rate
 
-2- Hour that has maximum crime rate
 
 #### Accomplished Tasks
 
@@ -104,3 +102,7 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 14-Year that has maximum crime rate
 
 15-Day that has maximum crime rate
+
+16-Month that has maximum crime rate
+
+17- Hour that has maximum crime rate
