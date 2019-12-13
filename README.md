@@ -66,8 +66,6 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 #### In Progress Tasks
 
-1- for each district count number of different offence codes 
-
 #### Accomplished Tasks
 
 1- get safe district (District That has minimum Number of crimes)
@@ -103,3 +101,5 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 16-Month that has maximum crime rate
 
 17- Hour that has maximum crime rate
+
+18- for each district count number of different offence codes 
