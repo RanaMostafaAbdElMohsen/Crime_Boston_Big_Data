@@ -58,13 +58,14 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 7- Remove NULL data, Fill columns that doesn't have value
 
+
+
+#### In Progress Tasks
 8- For each year for each offence code get crime rate
 
 9- For each year for each month get crime rate
 
 10- For each Month For each offence code get crime rate
-
-#### In Progress Tasks
 
 #### Accomplished Tasks
 
