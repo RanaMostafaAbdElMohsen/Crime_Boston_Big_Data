@@ -60,21 +60,16 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 8- KNN
 
-9- 
+9- Remove NULL data, Fill columns that doesn't have value
 
-10- Month that has maximum crime rate
+10- For each year for each offence code get crime rate
 
-11- Remove NULL data, Fill columns that doesn't have value
+11- For each year for each month get crime rate
 
-12- For each year for each offence code get crime rate
-
-13- For each year for each month get crime rate
-
-14- For each Month For each offence code get crime rate
+12- For each Month For each offence code get crime rate
 
 #### In Progress Tasks
-
-1- Day that has maximum crime rate
+1-Month that has maximum crime rate
 
 2- Hour that has maximum crime rate
 
@@ -107,3 +102,5 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 13- Crime count rate for each offence per day
 
 14-Year that has maximum crime rate
+
+15-Day that has maximum crime rate
