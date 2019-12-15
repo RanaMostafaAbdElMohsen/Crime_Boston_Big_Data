@@ -61,11 +61,7 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 
 #### In Progress Tasks
-8- For each year for each offence code get crime rate
 
-9- For each year for each month get crime rate
-
-10- For each Month For each offence code get crime rate
 
 #### Accomplished Tasks
 
@@ -104,3 +100,9 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 17- Hour that has maximum crime rate
 
 18- for each district count number of different offence codes 
+
+19- For each year for each offence code get crime rate
+
+20- For each year for each month get crime rate
+
+21- For each Month For each offence code get crime rate
