@@ -58,7 +58,7 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 
 #### In Progress Tasks
-2 - for each hour in year get count of crime rates 
+
 
 3- for each UCR part get count of offence code
 
@@ -106,3 +106,5 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 20- For each year for each month get crime rate
 
 21- For each Month For each offence code get crime rate
+
+22- for each hour in year get count of crime rates 
