@@ -52,7 +52,8 @@ This is a project, Crime Boston Project, intended for Big Data course at Cairo U
 
 4- KNN
 
-5- Remove NULL data, Fill columns that doesn't have value
+5- Remove NULL data, 
+6-Fill columns that doesn't have value
 
 
 
