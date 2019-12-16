@@ -69,7 +69,7 @@ public class OffenseCodeFreq {
 		 *
 		 */
 
-		DataSource<Tuple1<String>> csvInput = env.readCsvFile("/home/rana/Documents/BigData/Project/Crime_Boston_Big_Data/crime-boston/src/main/java/crimes-in-boston/crime.csv")
+		DataSource<Tuple1<String>> csvInput = env.readCsvFile("/home/omnia/Crime_Boston_Big_Data/crime-boston/src/main/java/crimes-in-boston/crime.csv")
 				.includeFields("010000000000000")
 				.types(String.class);
 
