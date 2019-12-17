@@ -85,7 +85,7 @@ public class KMeans {
 //            System.out.println("Use --centroids to specify file input.");
 //            centroids = KMeansData.getDefaultCentroidDataSet(env);
 //        }
-        centroids = env.readCsvFile("/home/rematchka/Documents/crimes-in-boston/Centroids_.csv")
+        centroids = env.readCsvFile("/home/rematchka/Documents/Crime_Boston_Big_Data/Data/Centroids_.csv")
                    .fieldDelimiter(",")
                   .pojoType(Centroid.class, "INCIDENT_NUMBER", "Lat", "Long");
         return centroids;
@@ -105,7 +105,7 @@ public class KMeans {
 //            points = KMeansData.getDefaultPointDataSet(env);
 //        }
         DataSet<Point> points = null;
-        points = env.readCsvFile("/home/rematchka/Documents/crimes-in-boston/Modified_data_new_.csv").fieldDelimiter(",").pojoType(Point.class, "Lat", "Long");
+        points = env.readCsvFile("/home/rematchka/Documents/Crime_Boston_Big_Data/Data/Modified_data_new_.csv").fieldDelimiter(",").pojoType(Point.class, "Lat", "Long");
 
         return points;
     }
