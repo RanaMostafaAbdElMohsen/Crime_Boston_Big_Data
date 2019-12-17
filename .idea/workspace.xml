@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7185b53b-f447-4234-9abe-77aaf3111ccb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UtBFLrIdji8AEQCKrhhc5EJlC6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7185b53b-f447-4234-9abe-77aaf3111ccb" name="Default Changelist" comment="" />
+      <created>1576165906522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576165906522</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="180" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576166348402">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="180" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744@65.24.1301.744" timestamp="1576166348402" />
+    <state x="503" y="100" key="FileChooserDialogImpl" timestamp="1576169191706">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="503" y="100" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1576169191706" />
+    <state x="306" y="82" key="NewModule_or_Project.wizard" timestamp="1576169255789">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="306" y="82" key="NewModule_or_Project.wizard/65.24.1301.744@65.24.1301.744" timestamp="1576169255789" />
+    <state x="209" y="24" key="SettingsEditor" timestamp="1576169090100">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1576169090100" />
+    <state x="378" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1576169180507">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="225" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1576169180507" />
+    <state x="65" y="215" key="new project wizard" timestamp="1576167475560">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="65" y="215" key="new project wizard/65.24.1301.744@65.24.1301.744" timestamp="1576167475560" />
+  </component>
+</project>
